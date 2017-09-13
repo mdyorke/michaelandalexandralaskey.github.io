@@ -84,23 +84,17 @@ h1 span {
     padding: 2rem 20px;
     color: #C8976E;
     font-size: 1.75rem;
-    background-size: 40px auto;
-    /*background-size: 80px auto;*/
-    background-repeat: no-repeat;
+
 }
 
 .section-event-details .section-title {
     margin-bottom: 2.5rem;
     border-bottom: 4px double #E5E5E5;
-    background-image: url('../images/leaf-left.jpg'), url('../images/leaf-bottom-right.jpg');
-    background-position: left top, right bottom;
 }
 
 .section-accomidations .section-title {
     border-top: 4px double #E5E5E5;
     margin-bottom: 0;
-    background-image: url('../images/leaf-left.jpg'), url('../images/leaf-right.jpg');
-    background-position: left top, right top;
 }
 /* Date & Time */
 .date-time {
@@ -225,7 +219,22 @@ ul.accomidations p {
 }
 @media (min-width:370px) {
   .section-title {
-      background-size: 50px auto;
+    background-repeat: no-repeat;
+      background-size: 40px auto;
+  }
+
+  .section-event-details .section-title {
+      margin-bottom: 2.5rem;
+      border-bottom: 4px double #E5E5E5;
+      background-image: url('../images/leaf-left.jpg'), url('../images/leaf-bottom-right.jpg');
+      background-position: left top, right bottom;
+  }
+
+  .section-accomidations .section-title {
+      border-top: 4px double #E5E5E5;
+      margin-bottom: 0;
+      background-image: url('../images/leaf-left.jpg'), url('../images/leaf-right.jpg');
+      background-position: left top, right top;
   }
 }
 @media (min-width:480px) {
